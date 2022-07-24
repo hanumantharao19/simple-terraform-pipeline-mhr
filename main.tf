@@ -16,7 +16,7 @@ tags = {
   }
 }
 resource "aws_security_group" "ramana-sg" {
-  name = "ramana-security"
+  name = "ramana-security-mhr"
   ingress {
     from_port   = 8080
     to_port     = 8080
